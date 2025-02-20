@@ -1,6 +1,6 @@
 import { WebhookEvent } from '@clerk/nextjs/server';
 import { headers } from 'next/headers';
-import { Webhook } from 'svix';
+import { Svix } from "svix";
 
 export const validateRequest = async (request: Request, secret: string) => {
   const payloadString = await request.text();
