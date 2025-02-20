@@ -33,5 +33,9 @@ config.overrides = [
     },
   },
 ];
+"globals":{
+  "Webhook": true
+}
+
 
 module.exports = config;
