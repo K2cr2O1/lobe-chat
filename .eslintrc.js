@@ -24,9 +24,9 @@ config.overrides = [
     files: ['*.mdx'],
     rules: {
       '@typescript-eslint/no-unused-vars': 1,
-      'no-undef': 0,
-      'react/jsx-no-undef': 0,
-      'react/no-unescaped-entities': 0,
+      'no-undef': "off",
+      'react/jsx-no-undef': "off",
+      'react/no-unescaped-entities': "off",
     },
     settings: {
       'mdx/code-blocks': false,
